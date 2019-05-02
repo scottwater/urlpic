@@ -1,0 +1,17 @@
+{
+    "name": "urlpic",	 
+    "version": 2,
+    "regions": ["all"],
+    "public": true,
+    "builds": [
+        { "src": "public/*", "use": "@now/static" },
+        { "src": "src/handler.ts", "use": "@now/node", "config": { "maxLambdaSize": "37mb" } }
+    ],
+    "routes": [
+        { "src": "/", "dest": "/public/index.html" },
+        { "src": "/capture", "dest": "/src/handler.ts" }
+    ],
+    "env": {
+        "TOKEN_KEY": "@token-key"
+    }
+}

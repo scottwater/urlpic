@@ -1,0 +1,29 @@
+{
+  "name": "screenshotty",
+  "version": "1.0.0",
+  "main": "dist/handler.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "now dev",
+    "build": "tsc",
+    "now-build": "tsc",
+    "watch": "tsc --watch",
+    "test": "jest --watch",
+    "tokenize": "ts-node ./scripts/tokenize.ts"
+  },
+  "dependencies": {
+    "@types/md5": "^2.1.33",
+    "chrome-aws-lambda": "^1.14.0",
+    "dotenv": "^7.0.0",
+    "md5": "^2.2.1",
+    "puppeteer-core": "^1.14.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/puppeteer-core": "^1.9.0",
+    "jest": "^24.7.1",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5"
+  }
+}
