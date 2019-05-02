@@ -27,13 +27,13 @@ UrlPic is designed to be easily deployable to [Now](https://zeit.co/now).
 
 Assuming you have both git and now installed:
 
-1. `git clone https://gitub.com/scottwater/urlpic`
+1. `git clone git@github.com:scottwater/urlpic.git`
 2. `now secrets add token-key "a secret key"`
 3. `now`
 
 # Installing locally
 
-1. `git clone https://github.com/scottwater/urlpic`
+1. `git clone git@github.com:scottwater/urlpic.git`
 2. `yarn install`
 3. Add a .env file with one key: TOKEN_KEY=yoursecret
 4. `yarn run dev`
