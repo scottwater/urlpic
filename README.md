@@ -4,7 +4,7 @@ UrlPic provides a simple way to capture a snapshot (png, jpeg, pdf) of any publi
 
 The API looks something like this: 
 
-https://yourinstall.com?token=YOUR_SECRET_TOKEN&url=https://scottw.com
+https://yourinstall.com/capture?token=YOUR_SECRET_TOKEN&url=https://scottw.com
 
 ## Parameters
 
